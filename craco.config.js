@@ -6,7 +6,7 @@ module.exports = {
       options: {
         lessLoaderOptions: {
           lessOptions: {
-            modifyVars: { '@primary-color': '#1DA57A' },
+            modifyVars: { 'primary-color': '#DA70D6' },
             javascriptEnabled: true,
           }
         }
@@ -14,8 +14,8 @@ module.exports = {
     }
   ],
   devServer: {
-    //host: 'localhost',
-    host: 'website.d.com',
+    host: 'localhost',
+    //host: 'website.d.com',
     port: 3000
   }
 }
